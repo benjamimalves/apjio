@@ -22,6 +22,9 @@ import Head from "next/head";
 import Router from "next/router";
 
 import PageChange from "../components/PageChange/PageChange";
+import Header from "../components/Header/Header";
+import HeaderLinks from "../components/Header/HeaderLinks";
+import Footer from "../components/Footer/Footer";
 
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
 
@@ -72,8 +75,11 @@ export default class MyApp extends App {
 
     return { pageProps };
   }
+
   render() {
     const { Component, pageProps } = this.props;
+
+    const dashboardRoutes = [];
 
     return (
       <React.Fragment>
@@ -82,9 +88,24 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>NextJS Material Kit by Creative Tim</title>
+          <title>APJIO | Associação de Pais do Jardim de Infância N2 Ovar</title>
         </Head>
-        <Component {...pageProps} />
+        <div>
+          <Header
+            color="transparent"
+            routes={dashboardRoutes}
+            brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+            rightLinks={<HeaderLinks />}
+            fixed
+            changeColorOnScroll={{
+              height: 400,
+              color: "white"
+            }}
+            {...pageProps}
+          />
+              <Component {...pageProps} />
+          <Footer />
+        </div>
       </React.Fragment>
     );
   }

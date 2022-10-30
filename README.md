@@ -2,31 +2,23 @@
 
 ## Quick start
 
-> 👉 **Step #1** - Install modules
+> **Step #1** - Install modules
 
 ```bash
 $ yarn
-// OR
-$ npm i
 ```
 
-> 👉 **Step #2** - Start the app
+> **Step #2** - Build the app
+
+```bash
+$ yarn build
+```
+
+> **Step #3** - Start the app
 
 ```bash
 $ yarn start
-// OR
-$ npm run start
 ```
-
-> 👉 **Step #3** - Static Export
-
-```bash
-$ yarn export
-// OR
-$ npm run export
-```
-
-The static site is generate in the `out` directory.
 
 ---
 

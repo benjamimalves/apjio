@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

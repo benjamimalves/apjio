@@ -25,7 +25,7 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit"
+        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
         rightLinks={<HeaderLinks />}
         fixed
         color="white"

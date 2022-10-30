@@ -30,55 +30,33 @@ export default function Footer(props: FooterProps) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
-            <ListItem className={classes.inlineBlock}>
+          <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/?AFFILIATE=128200"
+                href="/sobre-apjio"
                 className={classes.block}
-                target="_blank"
               >
-                Creative Tim
+                Sobre a APJIO
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="https://www.creative-tim.com/presentation?AFFILIATE=128200"
+                href="/contactos"
                 className={classes.block}
-                target="_blank"
               >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="http://blog.creative-tim.com/?AFFILIATE=128200"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.creative-tim.com/license?AFFILIATE=128200"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
+                Contactos
               </a>
             </ListItem>
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} por{" "}
           <a
-            href="https://www.creative-tim.com?AFFILIATE=128200"
+            href="https://www.benjamimalves.com"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
-          </a>{" "}
-          for a better web.
+            Benjamim Alves
+          </a>
         </div>
       </div>
     </footer>

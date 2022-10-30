@@ -63,8 +63,15 @@ export default function Header(props: HeaderProps) {
     [classes.fixed]: fixed,
   });
   const brandComponent = (
-    <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
+    <Link href="/">
+      <Button className={classes.title}>
+        <img
+          width={30}
+          src="/img/logo.png"
+          alt={brand}
+        />
+        &nbsp;&nbsp;Associação de Pais do Jardim de Infância N2 Ovar
+      </Button>
     </Link>
   );
   return (
