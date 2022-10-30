@@ -20,20 +20,20 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="sobre-apjio"
+          href="socio"
           color="transparent"
           className={classes.navLink}
         >
-          Sobre a APJIO
+          Torne-se sócio
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="contactos"
+          href="doar"
           color="transparent"
           className={classes.navLink}
         >
-          Contactos
+          Doar
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
