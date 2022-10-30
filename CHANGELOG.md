@@ -1,5 +1,19 @@
 # Change Log
 
+## [1.2.3] 2022-10-0
+### Improvements
+
+- Added Blog Section
+  - Mardown, MDX translation
+
+## [1.2.2] 2022-09-15
+### Improvements
+
+- `TypeScript` Migration
+- `Update Dependencies`
+- `Added Deploy` buttons
+  - Vercel, Netlify 
+
 ## [1.2.1] 2022-08-15
 
 - Fixed the issues
