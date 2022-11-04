@@ -4,6 +4,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 import styles from "../../styles/jss/nextjs-material-kit/components/infoStyle";
 
@@ -11,7 +12,7 @@ const useStyles = makeStyles(styles);
 
 export default function InfoArea(props: InfoAreaProps) {
   const classes = useStyles();
-  const { title, description, iconColor, vertical } = props;
+  const { title, description, iconColor, vertical, buttonHref } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor || "gray"]]: true,
@@ -29,6 +30,9 @@ export default function InfoArea(props: InfoAreaProps) {
       <div className={classes.descriptionWrapper}>
         <h4 className={classes.title}>{title}</h4>
         <p className={classes.description}>{description}</p>
+        <Button variant="outlined" href={buttonHref} size="small" >
+          Saber mais
+        </Button>
       </div>
     </div>
   );
@@ -47,4 +51,5 @@ export interface InfoAreaProps {
     | "rose"
     | "gray"
   vertical: boolean;
+  buttonHref: string;
 };
