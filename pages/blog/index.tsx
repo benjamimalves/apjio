@@ -41,7 +41,7 @@ export default function BlogPage(props: { posts: PostType[] }) {
   return (
     <div>
       <Header
-        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+        brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"

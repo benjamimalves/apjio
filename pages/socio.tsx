@@ -13,7 +13,7 @@ export default function LandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <Parallax filter responsive image="/img/bg4.jpg">
+    <Parallax filter responsive image="/img/hero/socios.jpg">
       <div className={classes.container}>
         <GridContainer>
           <GridItem xs={12} sm={12} md={6}>

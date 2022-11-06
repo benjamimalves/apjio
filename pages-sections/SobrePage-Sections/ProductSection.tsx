@@ -34,12 +34,12 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Doar"
+              title="Donativo"
               description="[Um breve resumo da importância de doar]"
               icon={CardGiftCard}
               iconColor="success"
               vertical
-              buttonHref="/doar"
+              buttonHref="/donativo"
             />
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>

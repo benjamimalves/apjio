@@ -88,17 +88,17 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>APJIO | Associação de Pais do Jardim de Infância N2 Ovar</title>
+          <title>APJIO | Associação de Pais do Jardim de Infância da Oliveirinha</title>
         </Head>
         <div>
           <Header
             color="transparent"
             routes={dashboardRoutes}
-            brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+            brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
             rightLinks={<HeaderLinks />}
             fixed
             changeColorOnScroll={{
-              height: 400,
+              height: 150,
               color: "white"
             }}
             {...pageProps}

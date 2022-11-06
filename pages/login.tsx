@@ -35,7 +35,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+        brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
         rightLinks={<HeaderLinks />}
         {...rest}
       />

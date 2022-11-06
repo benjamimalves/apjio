@@ -29,11 +29,11 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="doar"
+          href="donativo"
           color="transparent"
           className={classes.navLink}
         >
-          Doar
+          Donativo
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

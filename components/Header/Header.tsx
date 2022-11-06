@@ -70,7 +70,7 @@ export default function Header(props: HeaderProps) {
           src="/img/logo.png"
           alt={brand}
         />
-        &nbsp;&nbsp;Associação de Pais do Jardim de Infância N2 Ovar
+        &nbsp;&nbsp;Associação de Pais do Jardim de Infância da Oliveirinha
       </Button>
     </Link>
   );

@@ -25,7 +25,7 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
   return (
     <div>
       <Header
-        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+        brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
         rightLinks={<HeaderLinks />}
         fixed
         color="white"

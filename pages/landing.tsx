@@ -34,7 +34,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="APJIO | Associação de Pais do Jardim de Infância N2 Ovar"
+        brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

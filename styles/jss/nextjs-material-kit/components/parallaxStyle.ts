@@ -4,7 +4,7 @@ const parallaxStyle = (theme) => ({
     maxHeight: "1000px",
     overflow: "hidden",
     position: "relative",
-    backgroundPosition: "center top",
+    backgroundPosition: "center center",
     backgroundSize: "cover",
     margin: "0",
     padding: "0",
