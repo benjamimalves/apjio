@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
 import GroupWork from "@material-ui/icons/GroupWork";
-import CardGiftCard from "@material-ui/icons/CardGiftCard";
+import Redeem from "@material-ui/icons/Redeem";
 import AlternateEmail from "@material-ui/icons/AlternateEmail";
 
 // core components
@@ -36,7 +36,7 @@ export default function ProductSection() {
             <InfoArea
               title="Donativo"
               description="[Um breve resumo da importância de doar]"
-              icon={CardGiftCard}
+              icon={Redeem}
               iconColor="success"
               vertical
               buttonHref="/donativo"
