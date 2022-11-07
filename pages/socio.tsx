@@ -33,7 +33,7 @@ export default function Donativo(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Sócio</h1>
+              <h1 className={classes.title}>Torne-se sócio</h1>
             </GridItem>
           </GridContainer>
         </div>

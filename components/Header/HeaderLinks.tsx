@@ -20,6 +20,15 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
+          href="sobre-apjio"
+          color="transparent"
+          className={classes.navLink}
+        >
+          A APJIO
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
           href="socio"
           color="transparent"
           className={classes.navLink}
@@ -34,6 +43,15 @@ export default function HeaderLinks(props) {
           className={classes.navLink}
         >
           Donativo
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="contactos"
+          color="transparent"
+          className={classes.navLink}
+        >
+          Contactos
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
