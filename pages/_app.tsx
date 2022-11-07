@@ -88,13 +88,13 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>APJIO | Associação de Pais do Jardim de Infância da Oliveirinha</title>
+          <title>APJIO | Associação de Pais do Jardim de Infância de Oliveirinha</title>
         </Head>
         <div>
           <Header
             color="transparent"
             routes={dashboardRoutes}
-            brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
+            brand="APJIO | Associação de Pais do Jardim de Infância de Oliveirinha"
             rightLinks={<HeaderLinks />}
             fixed
             changeColorOnScroll={{

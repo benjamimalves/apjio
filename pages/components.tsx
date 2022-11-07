@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="APJIO | Associação de Pais do Jardim de Infância da Oliveirinha"
+        brand="APJIO | Associação de Pais do Jardim de Infância de Oliveirinha"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,7 +53,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>APJIO | Associação de Pais do Jardim de Infância da Oliveirinha.</h1>
+                <h1 className={classes.title}>APJIO | Associação de Pais do Jardim de Infância de Oliveirinha.</h1>
                 <h3 className={classes.subtitle}>
                   A Badass Material Kit based on Material-UI and NextJS.
                 </h3>

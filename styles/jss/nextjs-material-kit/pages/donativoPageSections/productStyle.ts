@@ -13,7 +13,11 @@ const productStyle = {
     textDecoration: "none"
   },
   description: {
-    color: "#999"
+    color: "#3c4858"
+  },
+  descriptionBold: {
+    color: "#3c4858",
+    fontWeight: "700"
   },
   iban: {
     fontWeight: "700",

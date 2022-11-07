@@ -3,7 +3,7 @@ import { title } from "../../../nextjs-material-kit";
 const productStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+    textAlign: "left"
   },
   title: {
     ...title,
@@ -13,6 +13,11 @@ const productStyle = {
     textDecoration: "none"
   },
   description: {
+    color: "#3c4858"
+  },
+  iban: {
+    fontWeight: "700",
+    fontSize: "1.125rem",
     color: "#3c4858"
   }
 };
