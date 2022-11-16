@@ -59,9 +59,12 @@ export default function BlogPage(props: { posts: PostType[] }) {
                 <BlogCard post={post} key={index} />
               ))}
             </div>
-            <Button onClick={loadMorePosts} size="md" color="info">
-              Ver mais
-            </Button>
+            <div className={classes.textCenter}>
+              <Button onClick={loadMorePosts} size="md" color="info">
+                Ver mais
+              </Button>
+            </div>
+            <br/>
           </GridItem>
         </GridContainer>
       </div>
