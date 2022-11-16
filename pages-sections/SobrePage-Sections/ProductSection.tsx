@@ -25,7 +25,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Ser Sócio"
-              description="[Um breve resumo de porquê ser sócio]"
+              description="Ser associado é estar informado sobre assuntos relacionados com a escola, ser ativamente responsável pela educação do seu educando, e poder contribuir para a melhoria das condições de ensino."
               icon={GroupWork}
               iconColor="info"
               vertical
@@ -35,7 +35,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Donativo"
-              description="[Um breve resumo da importância de doar]"
+              description="Ao contribuir estará através da associação de pais, a proporcionar às nossas crianças melhores condições em ambiente escolar, dentro e fora de sala."
               icon={Redeem}
               iconColor="success"
               vertical
@@ -45,7 +45,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Dúvidas"
-              description="[Um breve resumo sobre dúvidas]"
+              description='Tem alguma dúvida, sugestão ou simplesmente dizer um "Olá"!'
               icon={AlternateEmail}
               iconColor="rose"
               vertical
