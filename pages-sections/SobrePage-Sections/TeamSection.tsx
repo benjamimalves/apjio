@@ -82,7 +82,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/vera.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -119,7 +119,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/benjamim.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -178,7 +178,7 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Miguel Faria
+                Miguel Farraia
                 <br />
                 <small className={classes.smallTitle}>Presidente</small>
               </h4>

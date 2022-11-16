@@ -16,19 +16,12 @@ export default function LandingPage() {
 
   return (
     <>
-      <Parallax small filter image="/img/profile-bg.jpg" />
+      <Parallax small filter image="/img/hero/sobre.jpg" />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
-                <div className={classes.profile}>
-                  <img
-                    src="/img/logo.jpg"
-                    alt="..."
-                    className={classes.imgRounded + " " + classes.imgFluid}
-                  />
-                </div>
                 <div className={classes.description}>
                   <p>
                     [Descrição sobre a associação]
