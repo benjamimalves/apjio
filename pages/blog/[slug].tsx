@@ -5,6 +5,8 @@ import React from "react";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
 import { Box, Typography } from "@material-ui/core";
+import Favorite from "@material-ui/icons/Favorite";
+import Map from "@material-ui/icons/Map";
 import { serialize } from "next-mdx-remote/serialize";
 import Button from "../../components/CustomButtons/Button";
 import Parallax from "../../components/Parallax/Parallax";
@@ -13,8 +15,6 @@ import styles from "../../styles/jss/nextjs-material-kit/pages/components";
 import GridItem from "../../components/Grid/GridItem";
 import GridContainer from "../../components/Grid/GridContainer";
 import classNames from "classnames";
-import Header from "../../components/Header/Header";
-import HeaderLinks from "../../components/Header/HeaderLinks";
 
 const useStyles = makeStyles(styles);
 
@@ -24,19 +24,12 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
 
   return (
     <div>
-      <Header
-        brand="APJIO | Associação de Pais do Jardim de Infância de Oliveirinha"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="white"
-      />
-      <Parallax image={frontMatter.image_url}>
+      <Parallax small image={frontMatter.image_url}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
                 <h1 className={classes.title}>{frontMatter.title}</h1>
-                <Typography variant="h5">{frontMatter.published}</Typography>
                 <Typography variant="body2">
                   {frontMatter.description}
                 </Typography>
@@ -48,13 +41,13 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Box
           sx={{
-            p: 24,
+            p: 10,
           }}
         >
           <div>
             <MDXRemote
               {...mdxSource}
-              components={{ Image, Typography, Button }}
+              components={{ Image, Typography, Button, Favorite, Map }}
             />
           </div>
         </Box>
