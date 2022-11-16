@@ -66,8 +66,8 @@ export default function Header(props: HeaderProps) {
     <Link href="/">
       <Button className={classes.title}>
         <img
-          width={30}
-          src="/img/logo.png"
+          width={200}
+          src="/img/logo.jpg"
           alt={brand}
         />
       </Button>

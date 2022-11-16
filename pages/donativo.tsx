@@ -1,32 +1,19 @@
 import React from "react";
-// nodejs library that concatenates classes
 import classNames from "classnames";
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
-// @material-ui/icons
-
-// core components
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
 import GridContainer from "../components/Grid/GridContainer";
 import GridItem from "../components/Grid/GridItem";
-import Button from "../components/CustomButtons/Button";
-import HeaderLinks from "../components/Header/HeaderLinks";
 import Parallax from "../components/Parallax/Parallax";
-
 import styles from "../styles/jss/nextjs-material-kit/pages/donativoPage";
 
 // Sections for this page
 import ProductSection from "../pages-sections/DonativoPage-Sections/ProductSection";
 
-const dashboardRoutes = [];
-
 const useStyles = makeStyles(styles);
 
-export default function Donativo(props) {
+export default function Donativo() {
   const classes = useStyles();
-  const { ...rest } = props;
+
   return (
     <div>
       <Parallax small filter image="/img/hero/donativo.jpg">

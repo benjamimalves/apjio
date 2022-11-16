@@ -40,22 +40,12 @@ export default function BlogPage(props: { posts: PostType[] }) {
 
   return (
     <div>
-      <Header
-        brand="APJIO | Associação de Pais do Jardim de Infância de Oliveirinha"
-        rightLinks={<HeaderLinks />}
-        fixed
-        color="transparent"
-        changeColorOnScroll={{
-          height: 400,
-          color: "white",
-        }}
-      />
-      <Parallax image="/img/nextjs_header.jpg">
+      <Parallax small image="/img/hero/eventos.jpg">
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Blog.</h1>
+                <h1 className={classes.title}>Blog</h1>
               </div>
             </GridItem>
           </GridContainer>
@@ -69,13 +59,12 @@ export default function BlogPage(props: { posts: PostType[] }) {
                 <BlogCard post={post} key={index} />
               ))}
             </div>
-            <Button onClick={loadMorePosts} size="md" color="primary">
-              Load more
+            <Button onClick={loadMorePosts} size="md" color="info">
+              Ver mais
             </Button>
           </GridItem>
         </GridContainer>
       </div>
-      <Footer />
     </div>
   );
 }

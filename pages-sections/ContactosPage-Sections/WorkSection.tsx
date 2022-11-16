@@ -68,7 +68,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="primary">Enviar</Button>
+                <Button color="info">Enviar</Button>
               </GridItem>
             </GridContainer>
           </form>

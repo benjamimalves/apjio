@@ -92,15 +92,10 @@ export default class MyApp extends App {
         </Head>
         <div>
           <Header
-            color="transparent"
             routes={dashboardRoutes}
             brand="APJIO | Associação de Pais do Jardim de Infância de Oliveirinha"
             rightLinks={<HeaderLinks />}
             fixed
-            changeColorOnScroll={{
-              height: 150,
-              color: "white"
-            }}
             {...pageProps}
           />
               <Component {...pageProps} />

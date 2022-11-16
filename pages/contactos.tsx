@@ -1,18 +1,13 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import classNames from "classnames";
-
-import GridContainer from "../components/Grid/GridContainer";
-import GridItem from "../components/Grid/GridItem";
 import Parallax from "../components/Parallax/Parallax";
-import Button from "../components/CustomButtons/Button";
-
 import styles from "../styles/jss/nextjs-material-kit/pages/contactosPage";
 import WorkSection from "../pages-sections/ContactosPage-Sections/WorkSection";
 
 const useStyles = makeStyles(styles);
 
-export default function Contactos(props) {
+export default function Contactos() {
   const classes = useStyles();
 
   return (

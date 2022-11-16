@@ -21,7 +21,7 @@ type PostType = {
 export default function BlogCard(props: { post: PostType }) {
   const { post } = props;
   return (
-    <Card sx={{ maxWidth: 4, margin: 2 }} margin={4}>
+    <Card style={{marginTop: '15px', marginBottom: '15px'}}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -33,7 +33,6 @@ export default function BlogCard(props: { post: PostType }) {
           <Typography gutterBottom variant="h4" component="div">
             {post.title}
           </Typography>
-          <Typography variant="body2">Published on {post.published}</Typography>
           <Typography variant="overline" component="div">
             {post.description}
           </Typography>
@@ -41,8 +40,8 @@ export default function BlogCard(props: { post: PostType }) {
       </CardActionArea>
       <CardActions>
         <Link href={"/blog/" + post.slug} passHref>
-          <Button size="md" color="primary">
-            Read now
+          <Button size="md" color="info">
+            Ler mais
           </Button>
         </Link>
       </CardActions>

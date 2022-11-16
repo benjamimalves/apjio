@@ -54,7 +54,7 @@ export default function WorkSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Mensagem"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -66,7 +66,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="primary">Enviar</Button>
+                <Button color="info">Enviar</Button>
               </GridItem>
             </GridContainer>
           </form>
