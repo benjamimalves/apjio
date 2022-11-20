@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import React from "react";
 import { MDXRemote } from "next-mdx-remote";
 import Image from "next/image";
+import Head from "next/head";
 import { Box, Typography } from "@material-ui/core";
 import Favorite from "@material-ui/icons/Favorite";
 import Map from "@material-ui/icons/Map";
@@ -24,6 +25,18 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
 
   return (
     <div>
+      <Head>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
+          <title>{`APJIO | ${frontMatter.title}`}</title>
+          <meta property="og:site_name" content={`APJIO | ${frontMatter.title}`} />
+          <meta property="og:url" content={frontMatter.og_url} />
+          <meta property="og:description" content={frontMatter.og_description} />
+          <meta property="og:type" content="article" />
+          <meta property="og:image" content={frontMatter.og_image_url} />
+        </Head>
       <Parallax image={frontMatter.image_url}>
         <div className={classes.container}>
           <GridContainer>
