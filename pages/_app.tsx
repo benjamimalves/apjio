@@ -20,7 +20,7 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
+import Script from 'next/script'
 import PageChange from "../components/PageChange/PageChange";
 import Header from "../components/Header/Header";
 import HeaderLinks from "../components/Header/HeaderLinks";
@@ -89,6 +89,19 @@ export default class MyApp extends App {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>APJIO | Associação de Pais do Jardim de Infância de Oliveirinha</title>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-LMV06MR69K"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-LMV06MR69K');
+            `}
+          </Script>
         </Head>
         <div>
           <Header
