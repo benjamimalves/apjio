@@ -24,7 +24,7 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
 
   return (
     <div>
-      <Parallax small image={frontMatter.image_url}>
+      <Parallax image={frontMatter.image_url}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
@@ -41,7 +41,7 @@ export const PostPage = (props: { frontMatter; mdxSource }) => {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <Box
           sx={{
-            p: 10,
+            p: 4,
           }}
         >
           <div>
