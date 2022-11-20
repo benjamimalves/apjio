@@ -23,55 +23,62 @@ export default function WorkSection() {
           <h2 className={classes.title}>Contacte-nos</h2>
           <h4 className={classes.description}>
             Tem alguma dúvida, sugestão ou simplesmente dizer um "Olá"!
+            {/*}
             <br/>
             Preencha o formulário abaixo.
+            {*/}
           </h4>
-          <form>
-            <GridContainer>
-              <GridItem>
+          <h5 className={classes.textCenter}>
+            Envie-nos email para <a href="mailto:apjio@sapo.pt">apjio[at]sapo.pt</a>
+          </h5>
+          {/*}
+            <form>
+              <GridContainer>
+                <GridItem>
+                  <CustomInput
+                    labelText="Nome Completo"
+                    id="name"
+                    formControlProps={{
+                      fullWidth: true
+                    }}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={6}>
+                  <CustomInput
+                    labelText="Email"
+                    id="email"
+                    formControlProps={{
+                      fullWidth: true
+                    }}
+                  />
+                </GridItem>
+                <GridItem xs={12} sm={12} md={6}>
+                  <CustomInput
+                    labelText="Telefone"
+                    id="phone"
+                    formControlProps={{
+                      fullWidth: true
+                    }}
+                  />
+                </GridItem>
                 <CustomInput
-                  labelText="Nome Completo"
-                  id="name"
+                  labelText="Mensagem"
+                  id="message"
                   formControlProps={{
-                    fullWidth: true
+                    fullWidth: true,
+                    className: classes.textArea
+                  }}
+                  inputProps={{
+                    multiline: true,
+                    rows: 5
                   }}
                 />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Email"
-                  id="email"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <GridItem xs={12} sm={12} md={6}>
-                <CustomInput
-                  labelText="Telefone"
-                  id="phone"
-                  formControlProps={{
-                    fullWidth: true
-                  }}
-                />
-              </GridItem>
-              <CustomInput
-                labelText="Mensagem"
-                id="message"
-                formControlProps={{
-                  fullWidth: true,
-                  className: classes.textArea
-                }}
-                inputProps={{
-                  multiline: true,
-                  rows: 5
-                }}
-              />
-              <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                <Button color="info">Enviar</Button>
-              </GridItem>
-            </GridContainer>
-          </form>
+                <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
+                  <Button color="info">Enviar</Button>
+                </GridItem>
+              </GridContainer>
+            </form>
+          {*/}
         </GridItem>
       </GridContainer>
     </div>

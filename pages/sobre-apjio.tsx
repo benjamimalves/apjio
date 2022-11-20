@@ -23,9 +23,9 @@ export default function LandingPage() {
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
                 <div className={classes.description}>
-                  <p>
-                    [Descrição sobre a associação]
-                  </p>
+                  <h2 className={classes.title}>
+                    Associação de Pais do Jardim de Infância de Oliveirinha
+                  </h2>
                   <p>&nbsp;</p>
                 </div>
               </GridItem>
@@ -34,7 +34,7 @@ export default function LandingPage() {
           <div className={classes.container}>
             <ProductSection />
             <TeamSection />
-            <WorkSection />
+            {/*}<WorkSection />{*/}
           </div>
         </div>
       </div>

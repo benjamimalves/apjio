@@ -34,7 +34,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/ana.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -50,7 +50,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/sara.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -98,7 +98,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/rita.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -135,7 +135,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/pedro.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -172,7 +172,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/miguel.jpg"
                   alt="..."
                   className={imageClasses}
                 />
@@ -188,7 +188,7 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/faces/avatar.jpg"
+                  src="/img/team/juliana.jpg"
                   alt="..."
                   className={imageClasses}
                 />

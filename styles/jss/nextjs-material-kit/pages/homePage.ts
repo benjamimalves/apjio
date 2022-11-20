@@ -15,6 +15,15 @@ const homePageStyle = {
     color: "#FFFFFF",
     textDecoration: "none"
   },
+  blogTitle: {
+    ...title,
+    display: "inline-block",
+    position: "relative",
+    marginTop: "30px",
+    minHeight: "32px",
+    color: "#000",
+    textDecoration: "none"
+  },
   subtitle: {
     fontSize: "1.313rem",
     maxWidth: "500px",

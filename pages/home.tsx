@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import classNames from "classnames";
 import GridContainer from "../components/Grid/GridContainer";
@@ -7,13 +7,13 @@ import Parallax from "../components/Parallax/Parallax";
 import styles from "../styles/jss/nextjs-material-kit/pages/homePage";
 import ProductSection from "../pages-sections/SobrePage-Sections/ProductSection";
 import WorkSection from "../pages-sections/SobrePage-Sections/WorkSection";
-import Button from "../components/CustomButtons/Button";
+import BlogCard from "../components/Blog/BlogCard";
 
 const useStyles = makeStyles(styles);
 
-export default function LandingPage() {
+export default function HomePage() {
   const classes = useStyles();
-
+  
   return (
     <div>
       <Parallax filter image="/img/hero/home.jpg">
@@ -27,8 +27,23 @@ export default function LandingPage() {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <GridContainer alignItems="center" justifyContent="center">
+            <GridItem>
+              <h2 className={classes.blogTitle}>
+                Blog
+              </h2>
+              <BlogCard post={{
+                "title": "Dia do Pijama",
+                "published": "Sun Nov 20 2022",
+                "description": "20 Novembro 2022",
+                "image_url": "/img/blog/pijama.jpg",
+                "slug": "dia-do-pijama-2022"
+                }}
+              />
+            </GridItem>
+          </GridContainer>
           <ProductSection />
-          <WorkSection />
+          {/*}<WorkSection />{*/}
         </div>
       </div>
     </div>

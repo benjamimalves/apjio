@@ -26,4 +26,4 @@ yarn-error.log*
 # package
 /dist
 /.next
-pnpm-lock.yaml
+pnpm-lock.yamlsendgrid.env

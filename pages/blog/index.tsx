@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { getAllArticles } from "../../utils/markdown";
-import Header from "../../components/Header/Header";
-import HeaderLinks from "../../components/Header/HeaderLinks";
 import Parallax from "../../components/Parallax/Parallax";
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "../../styles/jss/nextjs-material-kit/pages/components";
-import Footer from "../../components/Footer/Footer";
 import classNames from "classnames";
 import BlogCard from "../../components/Blog/BlogCard";
 import Button from "../../components/CustomButtons/Button";
