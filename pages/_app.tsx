@@ -83,25 +83,23 @@ export default class MyApp extends App {
 
     return (
       <React.Fragment>
+        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-LMV06MR69K" />
+        <Script strategy="lazyOnload">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-LMV06MR69K', {
+                page_path: window.location.pathname,
+                });
+            `}
+        </Script>
         <Head>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <title>APJIO | Associação de Pais do Jardim de Infância de Oliveirinha</title>
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-LMV06MR69K"
-            strategy="afterInteractive"
-          />
-          <Script id="google-analytics" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){window.dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-LMV06MR69K');
-            `}
-          </Script>
         </Head>
         <div>
           <Header
