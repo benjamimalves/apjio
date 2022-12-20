@@ -33,11 +33,11 @@ export default function HomePage() {
                 Blog
               </h2>
               <BlogCard post={{
-                "title": "Dia do Pijama",
-                "published": "Sun Nov 20 2022",
-                "description": "20 Novembro 2022",
-                "image_url": "/img/blog/pijama.jpg",
-                "slug": "dia-do-pijama-2022"
+                "title": "Rifas de Natal",
+                "published": "Mon Dec 20 2022",
+                "description": "20 Dezembro 2022",
+                "image_url": "/img/blog/rifas.jpg",
+                "slug": "rifas-de-natal-2022"
                 }}
               />
             </GridItem>
