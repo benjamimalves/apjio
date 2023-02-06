@@ -135,22 +135,6 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/pedro.jpg"
-                  alt="..."
-                  className={imageClasses}
-                />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Pedro Tavares
-                <br />
-                <small className={classes.smallTitle}>Vice-Presidente</small>
-              </h4>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img
                   src="/img/team/emanuela.jpg"
                   alt="..."
                   className={imageClasses}
