@@ -30,22 +30,6 @@ export default function TeamSection() {
       <h2 className={classes.title}>Direção Executiva</h2>
       <div>
         <GridContainer>
-        <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img
-                  src="/img/team/ana.jpg"
-                  alt="..."
-                  className={imageClasses}
-                />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Ana Mané
-                <br />
-                <small className={classes.smallTitle}>Presidente</small>
-              </h4>
-            </Card>
-          </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
@@ -58,6 +42,22 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Sara Brandão
                 <br />
+                <small className={classes.smallTitle}>Presidente</small>
+              </h4>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img
+                  src="/img/team/benjamim.jpg"
+                  alt="..."
+                  className={imageClasses}
+                />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Benjamim Alves
+                <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
               </h4>
             </Card>
@@ -66,13 +66,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/tiago.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Tiago Rey
+                A definir
                 <br />
                 <small className={classes.smallTitle}>Tesoureiro</small>
               </h4>
@@ -82,13 +82,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/vera.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Vera Carvalho
+                A definir
                 <br />
                 <small className={classes.smallTitle}>Secretária</small>
               </h4>
@@ -119,13 +119,29 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/benjamim.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Benjamim Alves
+                Olga Alves
+                <br />
+                <small className={classes.smallTitle}>Presidente</small>
+              </h4>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img
+                  src="/img/logo.jpg"
+                  alt="..."
+                  className={imageClasses}
+                />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                A definir
                 <br />
                 <small className={classes.smallTitle}>Presidente</small>
               </h4>
@@ -156,13 +172,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/miguel.jpg"
+                  src="/img/team/tiago.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Miguel Farraia
+                Tiago Rey
                 <br />
                 <small className={classes.smallTitle}>Presidente</small>
               </h4>
@@ -172,13 +188,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/juliana.jpg"
+                  src="/img/team/vera.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Juliana Lima
+                Vera Carvalho
                 <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
               </h4>
