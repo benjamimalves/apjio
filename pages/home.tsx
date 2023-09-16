@@ -33,11 +33,11 @@ export default function HomePage() {
                 Blog
               </h2>
               <BlogCard post={{
-                "title": "Rifas de Natal",
-                "published": "Mon Dec 20 2022",
-                "description": "20 Dezembro 2022",
-                "image_url": "/img/blog/rifas.jpg",
-                "slug": "rifas-de-natal-2022"
+                "title": "Calendário Escolar 2023/2024",
+                "published": "Tue Aug 29 2023",
+                "description": "29 Agosto 2023",
+                "image_url": "/img/blog/regresso-escola.jpg",
+                "slug": "calendario-escolar-2023-2024"
                 }}
               />
             </GridItem>
