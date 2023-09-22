@@ -22,7 +22,7 @@ export default function ProductSection() {
             Participar na organização e desenvolvimento de atividades de caráter educativo e lúdico.
           </p>
           <p className={classes.description}>
-            Para ser sócio da APJIO, terá de ser feito o pagamento da quota anual de 5€, pode ser realizado de duas formas:
+            Para ser sócio da APJIO, terá de ser feito o pagamento da quota anual de 10€, pode ser realizado de duas formas:
             <br/>
             <b>1. Transferência bancária, para a conta que a APJIO possui no banco BPI, para o seguinte IBAN:</b>
           </p>
