@@ -66,15 +66,15 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/logo.jpg"
+                  src="/img/team/marta.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                A definir
+                Marta Pereira
                 <br />
-                <small className={classes.smallTitle}>Tesoureiro</small>
+                <small className={classes.smallTitle}>Tesoureira</small>
               </h4>
             </Card>
           </GridItem>
@@ -88,9 +88,25 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                A definir
+                Sara Cruz
                 <br />
                 <small className={classes.smallTitle}>Secretária</small>
+              </h4>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img
+                  src="/img/logo.jpg"
+                  alt="..."
+                  className={imageClasses}
+                />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Ana Tigre
+                <br />
+                <small className={classes.smallTitle}>Vogal</small>
               </h4>
             </Card>
           </GridItem>
@@ -125,7 +141,7 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                A definir
+                Hugo Cruz
                 <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
               </h4>
@@ -181,6 +197,22 @@ export default function TeamSection() {
                 Vera Carvalho
                 <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
+              </h4>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img
+                  src="/img/logo.jpg"
+                  alt="..."
+                  className={imageClasses}
+                />
+              </GridItem>
+              <h4 className={classes.cardTitle}>
+                Armando Costa
+                <br />
+                <small className={classes.smallTitle}>Vogal</small>
               </h4>
             </Card>
           </GridItem>
