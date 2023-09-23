@@ -6,18 +6,18 @@ export default async function handler(req, res) {
   const articles = await getAllArticles(page);
 
   articles
-      .map((post) => post)
-      .sort((a, b) => {
-        if (a.published > b.published) return 1;
-        if (a.published < b.published) return -1;
-
-        return 0;
-      });
+    .map((post) => {
+      return {
+        ...post,
+        published: new Date(post.published),
+      }
+    })
+    .sort((a, b) => b.published - a.published);
 
   const posts = articles.map((post) => {
     return {
       ...post,
-      published: new Date(post.published).toDateString(),
+      published: post.published.toDateString(),
     };
   });
 

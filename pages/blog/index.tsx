@@ -103,7 +103,7 @@ export const getStaticProps = async () => {
   const posts = articles.map((post) => {
     return {
       ...post,
-      published: new Date(post.published).toDateString(),
+      published: post.published.toDateString(),
     };
   });
 
