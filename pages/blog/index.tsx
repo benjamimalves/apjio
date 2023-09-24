@@ -100,16 +100,18 @@ export const getStaticProps = async () => {
     })
     .sort((a, b) => b.published - a.published);
 
-  const posts = articles.map((post) => {
-    return {
-      ...post,
-      published: post.published,
-    };
-  });
+  console.log('DEBUG :: articles', articles);
+
+  // const posts = articles.map((post) => {
+  //   return {
+  //     ...post,
+  //     published: post.published,
+  //   };
+  // });
 
   return {
     props: {
-      posts,
+      posts: articles,
     },
   };
 };

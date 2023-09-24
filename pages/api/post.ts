@@ -13,13 +13,15 @@ export default async function handler(req, res) {
       }
     })
     .sort((a, b) => b.published - a.published);
+  
+  console.log('DEBUG :: articles', articles);
 
-  const posts = articles.map((post) => {
-    return {
-      ...post,
-      published: post.published.toDateString(),
-    };
-  });
+  // const posts = articles.map((post) => {
+  //   return {
+  //     ...post,
+  //     published: post.published,
+  //   };
+  // });
 
-  res.status(200).json(posts);
+  res.status(200).json(articles);
 }
