@@ -50,13 +50,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/benjamim.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Benjamim Alves
+                [Sem membro atualmente]
                 <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
               </h4>
@@ -119,13 +119,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/olga.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Olga Alves
+                [Sem membro atualmente]
                 <br />
                 <small className={classes.smallTitle}>Presidente</small>
               </h4>
@@ -172,13 +172,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/tiago.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Tiago Rey
+                [Sem membro atualmente]
                 <br />
                 <small className={classes.smallTitle}>Presidente</small>
               </h4>
@@ -188,13 +188,13 @@ export default function TeamSection() {
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img
-                  src="/img/team/vera.jpg"
+                  src="/img/logo.jpg"
                   alt="..."
                   className={imageClasses}
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Vera Carvalho
+                [Sem membro atualmente]
                 <br />
                 <small className={classes.smallTitle}>Vice-Presidente</small>
               </h4>
