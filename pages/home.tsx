@@ -33,7 +33,7 @@ export default function HomePage() {
                 Blog
               </h2>
               <BlogCard post={{
-                "title": "Calendário Escolar 2023/2024",
+                "title": "Bla bla",
                 "published": "Tue Aug 29 2023",
                 "description": "29 Agosto 2023",
                 "image_url": "/img/blog/regresso-escola.jpg",
